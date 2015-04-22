@@ -80,6 +80,7 @@ task :default => :walk_the_path
 task :walk_the_path do
   cd PROB_DIR
   ruby 'path_to_enlightenment.rb'
+  cd '../'
 end
 
 directory DOWNLOAD_DIR
